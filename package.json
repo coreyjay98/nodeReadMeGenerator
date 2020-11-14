@@ -1,0 +1,22 @@
+{
+  "name": "nodereadmegenerator",
+  "version": "1.0.0",
+  "description": "Read Me generator project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyjay98/nodeReadMeGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreyjay98/nodeReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/coreyjay98/nodeReadMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
