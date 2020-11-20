@@ -1,41 +1,46 @@
 # Read me
 
-  A project created by **Corey**
-  
-  ## Table Of Contents
-  
-  - [Project Description](#project-description)
-  
-  - [Installation](#installation)
-  
-  - [Usage](#usage)
-  
-  - [Technologies Used](#technologies-used)
-  
-  - [Contributing](#contributing)
-  
-  - [License](#license)
-  
-  - [Questions](#questions)
-  
-  ## Project Description
-  hello i am corey
+A project created by **Corey**
 
-  ### Installation
-  coreysinsta
+## Table Of Contents
 
-  ### Usage
-  use it
+- [Project Description](#project-description)
 
-  ### Technologies Used
-  gtrsdf,sdfsdg,eg,egewg
+- [Installation](#installation)
 
-  ### Contributing
-  yes
+- [Usage](#usage)
 
-  #### License
-  
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [Technologies Used](#technologies-used)
+
+- [Contributing](#contributing)
+
+- [License](#license)
+
+- [Questions](#questions)
+
+## Project Description
+
+hello i am corey
+
+### Installation
+
+coreysinsta
+
+### Usage
+
+use it
+
+### Technologies Used
+
+gtrsdf,sdfsdg,eg,egewg
+
+### Contributing
+
+yes
+
+#### License
+
+    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
     Copyright (c) 2020
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -44,10 +49,10 @@
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -56,9 +61,8 @@
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
     OR OTHER DEALINGS IN THE SOFTWARE.
 
-  ### Questions
+### Questions
 
-  Check out my GitHub page here: coreyjay.github.com
-  
-  For any additional questions please feel free to reach me at coryjsamuels@sg.com
-  
+Check out my GitHub page here: coreyjay.github.com
+
+For any additional questions please feel free to reach me at coryjsamuels@sg.com
