@@ -108,7 +108,9 @@ function markdownText(answers) {
 
 function licenseAnswer(answer) {
   if (answer == "MIT") {
-    return `Copyright (c) 2020
+    return `
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    Copyright (c) 2020
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -128,7 +130,9 @@ function licenseAnswer(answer) {
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
     OR OTHER DEALINGS IN THE SOFTWARE.`;
   } else if (answer == "Apache") {
-    return `Copyright 2020
+    return `
+    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    Copyright 2020
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -140,6 +144,7 @@ function licenseAnswer(answer) {
     permissions and limitations under the License.`;
   } else {
     return `
+    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
     Copyright (C) 2020
     
     This program is free software: you can redistribute it and/or modify
