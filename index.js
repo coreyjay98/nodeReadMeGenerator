@@ -108,10 +108,12 @@ function markdownText(answers) {
 
 function licenseAnswer(answer) {
   if (answer == "MIT") {
-    return `
+    return (
+      `
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     Copyright (c) 2020
-
+    ` +
+      `
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -128,11 +130,15 @@ function licenseAnswer(answer) {
     IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
     DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-    OR OTHER DEALINGS IN THE SOFTWARE.`;
+    OR OTHER DEALINGS IN THE SOFTWARE.`
+    );
   } else if (answer == "Apache") {
-    return `
+    return (
+      `
     [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     Copyright 2020
+    ` +
+      `
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -141,12 +147,14 @@ function licenseAnswer(answer) {
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
     or implied. See the License for the specific language governing
-    permissions and limitations under the License.`;
+    permissions and limitations under the License.`
+    );
   } else {
-    return `
+    return (
+      `
     [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-    Copyright (C) 2020
-    
+    Copyright (C) 2020` +
+      `
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -158,6 +166,7 @@ function licenseAnswer(answer) {
     GNU General Public License for more details.
     
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.`;
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.`
+    );
   }
 }
