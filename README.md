@@ -22,6 +22,12 @@ A project created by **Corey Samuels**
 
 In this project I have created a simple Read Me generator that can be ran in the terminal, this will allow me to create well formatted Markdown files in a much faster and convenient way. This will speed up the process of creating a markdown and will be a helpful tool for me throughout my whole career as a developer.
 
+## Demo
+
+A short Demo gif of my project, apologies for the quality!
+
+![](./Demo.gif)
+
 ### Installation
 
 As this app is ran through node and the terminal, if you wanted to install it from GitHub you would need to install the inquirer package for node and run the index.js page through the terminal in node, this will give you the question list in the terminal that will then create a Read me file in the same directory as the index.js file.
